@@ -50,3 +50,58 @@ nextItem.addEventListener('click', showNextItem);
 previousItem.addEventListener('click', showPreviousItem);
 document.addEventListener('keydown', keyPress);
 navItem.addEventListener('click', toggleNavigation);
+
+
+
+
+function locationClick() {
+
+  var userWord = document.getElementById("locationBox").value;
+  console.log(userWord)
+
+  if (userWord === "Goldstein") {
+    window.location.replace("brotherhood.html");
+  }
+
+}
+
+
+
+$(function() {
+  var btn = $(".btn");
+  
+  btn.on("click", function() {
+    
+    $(this).addClass('btn-progress');
+    setTimeout(function() {
+      btn.addClass('btn-fill')
+    }, 500);
+    
+    setTimeout(function() {
+      btn.removeClass('btn-fill')
+    }, 4100);
+    
+    setTimeout(function() {
+      btn.addClass('btn-complete')
+    }, 4100);
+  
+  });
+})
+
+
+
+(function($){
+  // variables
+  elementWidth = $('ul').width(),
+  containerWidth = $('nav').width(),
+  difference = elementWidth-containerWidth,
+  finalWidth = difference * 1.5,
+  element = $('ul');
+  
+  // active on click
+  $('li').on('click', function(){
+    $('li').removeClass('active');
+    $(this).addClass('active');
+  });
+  
+})(jQuery);
