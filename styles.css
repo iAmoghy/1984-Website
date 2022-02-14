@@ -2,7 +2,7 @@
 .container {
   margin: auto;
   padding: 0 1rem;
-  max-width: 71.25rem;
+  max-width: 130vh;
   width: 100%;
 }
 
@@ -174,7 +174,7 @@
 
   .column-md-4 {
     flex-basis: 33.3333333333%;
-    max-width: 33.3333333333%;
+    max-width: 50%;
   }
 
   .column-md-5 {
@@ -568,6 +568,7 @@ nav ul {
   line-height: 2.2;
   display: flex;
   justify-content: flex-start;
+  transform: translate(0%, 50%);
 }
 nav ul li {
   margin: 0.325rem 0;
@@ -796,7 +797,7 @@ button {
   }
 
   .controls {
-    padding: 1.75rem 0 1.75rem 0;
+    padding: 0 0 3.5rem 0;
   }
 
   .intro {
@@ -870,22 +871,29 @@ button {
 
 
 
+.everything {
+  height: 100vh;
+}
+
+.discover-container {
+  text-align: center;
+}
+
+#discover {
+  color: #333;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
 
 .location {
-  height: 70vh;
-  position: relative;
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  height: 100%;
 }
 
 
-
-input[type="text"] {
-  display: block;
-  margin : 0 auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
 
 
 input[type='text']{
@@ -893,7 +901,6 @@ input[type='text']{
   color: #333;
   padding-left: 10px;
   padding-right: 10px;
-  width: 200px;
   margin-top: 10rem;
 
   transition: box-shadow 320ms;
@@ -901,8 +908,9 @@ input[type='text']{
   box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.1);
   
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 28px;
   border: 0px;
+  
 }
 
 input[type='text']:focus {
@@ -922,13 +930,82 @@ input[type=text]{
   border-radius:4px;
   margin:8px 0;
   outline:none;
-  padding:8px;
+  padding:14px;
   box-sizing:border-box;
   transition:.3s;
 }
 
 input[type=text]:focus{
-  border-color:dodgerBlue;
-  box-shadow:0 0 8px 0 dodgerBlue;
+  border-color:#1ECD97;
+  box-shadow:0 0 8px 0 #1ECD97;
 }
 
+
+
+
+.btn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background: transparent;
+  width: 200px;
+  position: relative;
+  padding: 15px;
+  color: #1ECD97;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  border-radius: 4px;
+  font-weight: 600;
+  overflow: hidden;
+  border: 2px solid #1ECD97;
+  text-decoration: none;
+}
+
+/* In Progress Button */
+.btn-progress {
+  width: 500px;
+  color: transparent;
+}
+
+.btn-fill:after {
+  content: '';
+  background: #1ECD97;
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: 0;
+  display: block;
+  animation: fill 3.2s linear forwards;
+}
+
+/* Button Complete */
+.btn-complete {
+  padding: 10px;
+  width: 50px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.btn-complete:after {
+  font-family: FontAwesome;
+  content: "\f00c";
+  color: #fff;
+  height: 100%;
+  padding-left: 3px;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1ECD97;
+}
+
+/* Animation */
+@keyframes fill {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
