@@ -871,16 +871,20 @@ button {
 
 
 
-
-
-.entry {
-  height: 10vh;
+.location {
+  height: 70vh;
+  position: relative;
 }
+
 
 
 input[type="text"] {
   display: block;
   margin : 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -889,7 +893,7 @@ input[type='text']{
   color: #333;
   padding-left: 10px;
   padding-right: 10px;
-  width: 400px;
+  width: 200px;
   margin-top: 10rem;
 
   transition: box-shadow 320ms;
@@ -911,3 +915,20 @@ input[type='text']:focus {
 input:-moz-placeholder {
   color: #cccccc;
 }
+
+input[type=text]{
+  width: 40%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+input[type=text]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
