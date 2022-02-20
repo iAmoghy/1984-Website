@@ -60,9 +60,7 @@ function locationClick() {
   console.log(userWord)
 
   if (userWord === "Goldstein") {
-    window.location.replace("brotherhood.html");
-  } else if (userWord === "cute cat") {
-    window.location.replace("cat.html");
+    window.location.replace("block.html");
   }
 
 }
