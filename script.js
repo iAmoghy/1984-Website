@@ -61,6 +61,8 @@ function locationClick() {
 
   if (userWord === "Goldstein") {
     window.location.replace("brotherhood.html");
+  } else if (userWord === "cute cat") {
+    window.location.replace("cat.html");
   }
 
 }
