@@ -549,6 +549,16 @@ body {
   background: #fff;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+
+}
+
+.intro-section {
+  height: 10vh;
+}
+
+
+.part1 {
+  height: 100vh;
 }
 
 a {
@@ -602,6 +612,7 @@ img {
   opacity: 0;
   animation: fadeIn 0.8s 0.4s ease forwards;
 }
+
 .intro .title {
   display: inline-block;
   font-size: 2rem;
@@ -872,7 +883,7 @@ button {
 
 
 .everything {
-  height: 100vh;
+  height: 10vh;
 }
 
 .discover-container {
