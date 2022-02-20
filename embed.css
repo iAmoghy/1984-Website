@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: #323639;
+}
+
+
+.iframe-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 0 0 0;
+    border: none;
+}
