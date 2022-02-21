@@ -5,13 +5,13 @@
 
 Frater (brother),
 
-You have successfully established a preliminary connection to the Brotherhood HQ using your entry key.<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-<p>The Brotherhood is a counter-revolutionary organization working against the Oceanic Party to restore freedom, prosperity, and order to the nation and world beyond.</p>
-<p>Though few details can be mentioned here, we recruite members to launch espionage and sabotage missions, with the final aim of carrying out a successful coup in Airstrip One.</p>
-<p>Your telescreen connection was intercepted because you were on our recuitment list, and were successfully able to join with the secret key.
-<p> By clicking on the signiature of approval at the end of this message, you will agree to abide by all terms of the "Code of Brothers", the official charter of the BrotherHood. A copy may be found <a href="link"> here</a>.</p>
+You have successfully established a preliminary connection to the Brotherhood HQ using your entry key.<!-- laglaglaglaglaglaglaglaglaglaglaglag --> <br/><br/>
+The Brotherhood is a counter-revolutionary organization working against the Oceanic Party to restore freedom, prosperity, and order to the nation and world beyond. Though few details can be mentioned here, we recruite members to launch espionage and sabotage missions, with the final aim of carrying out a successful coup in Airstrip One. <br/><br/><!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+Your connection was intercepted because you have been noted on our list as a possible future operative, and we see great potential for you to work alongside us against the evils of the Party. This message is an OFFICIAL NOTICE OF RECRUITMENT to join the Brotherhood. Note that this is an irreversible act of direct defiance against the Party, punishable by only the very worst torture in the MINISTRY OF LOVE.<br/><br/> <!-- slightdelayhere--> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+You should therefore only join if you, in your own will and consience of mind, choose to fight for the Brotherhood cause. Only if you are willing to endure death, loss, and torture - to strive for a greater Oceania. By clicking on the signiature of approval at the end of this message, you will agree to abide by all terms of the "CODE OF BROTHERS", the official charter of the BrotherHood. A copy may be found <a href="link"> here</a>.<br/><br/> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<a id="k" href="brotherhood.html"> ACCEPT </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<a id="b" href="brotherhood.html"> TERMINATE CONNECTION </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+Down with Big Brother!<!-- slightdelayhere-->
 
-You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="Your email ID">Email</a>.
-
-<span id="b">Ense petit placidam sub libertate quietem,</span>
+<span id="b">Ense petit placidam sub libertate quietem,</span> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 <span id="c">Fratres liberae Reipublicae</span>

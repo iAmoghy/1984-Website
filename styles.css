@@ -549,13 +549,7 @@ body {
   background: #fff;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-
 }
-
-.intro-section {
-  height: 10vh;
-}
-
 
 .part1 {
   height: 100vh;
