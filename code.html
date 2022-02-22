@@ -1,17 +1,96 @@
 <html> 
   <head> 
     <title>CodeNerve</title> 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
-    <link rel="stylesheet" type="text/css" href="block.css">
+    <link rel="stylesheet" type="text/css" href="terminal.css">
   </head>
 
   <body> 
-    <script type="text/javascript" src="jquery.min.js"> 
-    </script>
-    <script type="text/javascript" src="code.js"> 
-    </script> 
-    <div id="console"></div>
+    <div id="console">
+
+      <!-- HEADER -->
+
+      <span id="a">guest@</span>:<span id="b">bhoodengine.bh:</span><span id="c">$</span> ~
+      <br>
+      <br>
+      <pre id="banner">
+      
+ ███████████  █████                            █████    ██████████                      ███                     
+░░███░░░░░███░░███                            ░░███    ░░███░░░░░█                     ░░░                      
+ ░███    ░███ ░███████    ██████   ██████   ███████     ░███  █ ░  ████████    ███████ ████  ████████    ██████ 
+ ░██████████  ░███░░███  ███░░███ ███░░███ ███░░███     ░██████   ░░███░░███  ███░░███░░███ ░░███░░███  ███░░███
+ ░███░░░░░███ ░███ ░███ ░███ ░███░███ ░███░███ ░███     ░███░░█    ░███ ░███ ░███ ░███ ░███  ░███ ░███ ░███████ 
+ ░███    ░███ ░███ ░███ ░███ ░███░███ ░███░███ ░███     ░███ ░   █ ░███ ░███ ░███ ░███ ░███  ░███ ░███ ░███░░░  
+ ███████████  ████ █████░░██████ ░░██████ ░░████████    ██████████ ████ █████░░███████ █████ ████ █████░░██████ 
+░░░░░░░░░░░  ░░░░ ░░░░░  ░░░░░░   ░░░░░░   ░░░░░░░░    ░░░░░░░░░░ ░░░░ ░░░░░  ░░░░░███░░░░░ ░░░░ ░░░░░  ░░░░░░  
+                                                                              ███ ░███                          v3.8.1, Stable Release
+                                                                             ░░██████                           
+                                                                              ░░░░░░                                                                                             
+      </pre>
+      
+      <span class="desc">Type "help" to see a list of available commands.</span>
+      <br>
+      <br>
+      <br>
+
+      <!-- COMMAND HISTORY -->
+      
+      <div id="history">
+      </div>
+
+<!-- 
+      <div id="error" class="desc">
+        <span id="error_msg">Error: BHE 3.8.1 does not recognise that command. Type "help" to see all valid commands and arguments.</span><br><br>
+      </div> -->
+
+      <!-- <div id="publications" class="desc">
+        <b>recent publications:</b> <br>
+        <br>
+        <span id="b">PINNED ITEM: </span><a href="report.pdf">Declassified Report on the case of Winston Smith</a><br>
+        Published to BHood Engine on April 4, 1990 by a verified user 🗸
+        <br>
+        <br>
+        <span id="b">PINNED ITEM: </span><a href="transcript.pdf">Interview Transcript with a new operative</a><br>
+        Published to BHood Engine on April 28, 1990 by a verified user 🗸
+        <br>
+        <br>
+      </div> -->
+
+      <!-- <div id="contact" class="desc">
+        You do not have authorization to use this command. Please sign in as an administrator and relaunch the engine to proceed.
+      </div> -->
+
+      <!-- <div id="code_of_brothers" class="desc">
+        <b>THE CODE OF BROTHERS</b> <br>
+        Revised and officialy adopted by the BrotherHood High Command on March 15, 1984.
+        <ol>
+          <li>Be prepared to take any action deemed necessary to further the aims of the Brotherhood.</li><br>
+          <li>Be prepared to be questioned by The Party, and not give up any key information.</li><br>
+          <li>Support the brotherhood to your fullest capabilities.</li><br>
+          <li>Be prepared to give your lives.</li><br>
+          <li>Be prepared to commit murder.</li><br>
+          <li>Be prepared to commit acts of sabotage which may cause the death of hundreds of innocent people.</li><br>
+          <li>Be prepared to betray your country to foreign powers.</li><br>
+          <li>Be prepared to cheat, to forge, to blackmail, to corrupt the minds of children, to distribute habit-forming drugs, to encourage prostitution, to disseminate venereal diseases - to do anything which is likely to cause demoralization and weaken the power of the Party.</li><br>
+          <li>Be prepared to lose your identity and live out the rest of your life as a waiter or a dock-worker.</li><br>
+          <li>Lasty, down with the Party!</li><br>
+        </ol>
+        Ense petit placidam sub libertate quietem,<br>
+        Fratres liberae Reipublicae
+      </div> -->
+
+      <!-- CURRENT LINE -->
+
+      <div class="line">
+          <span id="a" class="path">guest@</span>:<span id="b">bhoodengine.bh:</span><span id="c">$</span> ~
+          <input type="text" id="input" autocomplete="off">
+      </div>
+      
+    </div>
     
-    </script>
   </body>
+
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+  <script type="text/javascript" src="code.js"> </script> 
 </html>

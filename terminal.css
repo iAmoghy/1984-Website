@@ -1,0 +1,91 @@
+:root {
+	background-color: #000 !important;
+}
+
+body {
+	background-color: #000;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#console {
+	font-family: courier, monospace;
+	color: #fff;
+	width:70vw;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:75px;
+	font-size:18px;
+}
+
+.line {
+	display: table;
+	width: 100%;
+}
+
+#history {
+	font-family: courier, monospace;
+	font-size:18px;
+}
+
+#error_msg {
+	color: red;
+}
+
+.line input{
+	display:table-cell; 
+	border: none;
+	background: black;
+	color: white;
+	outline: none;
+	font-family: courier, monospace;
+	font-size:18px;
+	text-transform: lowercase;
+  }
+  
+
+/* For the ASCII banner at the top of the terminal */
+#banner {
+	color: #EBDBB2;
+	font-size: 10px;
+	margin-bottom: 0;
+}
+
+/* Type help to see commands */
+
+.desc {
+	color:#EBDBB2;
+}
+
+a {
+	color: #0bc;
+	text-decoration: none;
+}
+
+#a {
+	color: #0f0;
+}
+
+#c {
+	color: #0bc;
+}
+
+#b {
+	color: #ff0096;
+}
+
+#k {
+    	animation: change 1s;
+}
+
+#op{
+    	color: #888888
+}
+
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
+    	99% { color: black; }
+}

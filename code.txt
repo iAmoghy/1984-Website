@@ -1,15 +1,24 @@
-<span id="a">121.22.8976.3</span>:<span id="b">~</span><span id="c">$</span> Establishing connection ...
-<span id="a">bh@hqs</span>:<span id="b">~</span><span id="c">$</span> Token identified, registered session k#&sfh*%%#**<!-- kjsdfhkjdhsfkjdshfkj -->
-<span id="a">bh@hqs</span>:<span id="b">~</span><span id="c">$</span> Authorized PORT 2290, "Brotherhood HQ" server DZN23<!-- kjsdfhkjdhsfkjdshfkj -->
-<span id="a">bh@hqs</span>:<span id="b">~</span><span id="c">$</span><span id="k"> Process finished with exit code 0 </span><!-- kjsdfhkjdhsfkjdshfkj --><br/><br/>
+<span id="a">guest@</span>:<span id="b">bhoodengine.bh:</span><span id="c">$</span> ~
+<pre id="banner">
 
-Frater (brother),    
-    
-You have successfully established a preliminary connection to the Brotherhood HQ using your entry key.<!-- laglaglaglaglaglaglaglaglaglaglaglag --> <br/>
-The Brotherhood is a counter-revolutionary organiza
-<a id="k" href="brotherhood.html"> ACCEPT </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-<a id="b" href="brotherhood.html"> TERMINATE CONNECTION </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+ ███████████  █████                            █████    ██████████                      ███                     
+░░███░░░░░███░░███                            ░░███    ░░███░░░░░█                     ░░░                      
+ ░███    ░███ ░███████    ██████   ██████   ███████     ░███  █ ░  ████████    ███████ ████  ████████    ██████ 
+ ░██████████  ░███░░███  ███░░███ ███░░███ ███░░███     ░██████   ░░███░░███  ███░░███░░███ ░░███░░███  ███░░███
+ ░███░░░░░███ ░███ ░███ ░███ ░███░███ ░███░███ ░███     ░███░░█    ░███ ░███ ░███ ░███ ░███  ░███ ░███ ░███████ 
+ ░███    ░███ ░███ ░███ ░███ ░███░███ ░███░███ ░███     ░███ ░   █ ░███ ░███ ░███ ░███ ░███  ░███ ░███ ░███░░░  
+ ███████████  ████ █████░░██████ ░░██████ ░░████████    ██████████ ████ █████░░███████ █████ ████ █████░░██████ 
+░░░░░░░░░░░  ░░░░ ░░░░░  ░░░░░░   ░░░░░░   ░░░░░░░░    ░░░░░░░░░░ ░░░░ ░░░░░  ░░░░░███░░░░░ ░░░░ ░░░░░  ░░░░░░  
+                                                                              ███ ░███                          v3.8.1, Stable Release
+                                                                             ░░██████                           
+                                                                              ░░░░░░                                                                                             
+</pre>
+
+<span id="help">Type "help" to see a list of available commands.</span>
 
 
-<span id="b">Ense petit placidam sub libertate quietem,</span> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-<span id="c">Fratres liberae Reipublicae</span>
+<div class="line">
+    <span id="a" class="path">guest@</span>:<span id="b">bhoodengine.bh:</span><span id="c">$</span> ~
+    <input type="text" id="input">
+</div>
+
