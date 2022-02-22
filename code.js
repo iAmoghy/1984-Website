@@ -96,7 +96,7 @@ var Typer = {
   }
   
   Typer.speed = 4;
-  Typer.file = 'block.txt';
+  Typer.file = 'code.txt';
   Typer.init();
   
   var timer = setInterval('t();', 30);

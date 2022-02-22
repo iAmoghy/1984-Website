@@ -61,6 +61,22 @@ function locationClick() {
 
   if (userWord === "Goldstein") {
     window.location.replace("block.html");
+  } else if (userWord == "Havana" || userWord == "havana") {
+    window.location.replace("https://www.google.com/maps/place/Havana,+Cuba/")
+  } else if (userWord == "Sydney" || userWord == "sydney") {
+    window.location.replace("https://www.google.com/maps/place/Sydney+NSW,+Australia/")
+  } else if (userWord == "Rio" || userWord == "rio") {
+    window.location.replace("https://www.google.com/maps/place/Rio+de+Janeiro,+State+of+Rio+de+Janeiro,+Brazil/")
+  } else if (userWord == "Cape town" || userWord == "cape town"|| userWord == "Cape Town") {
+    window.location.replace("https://www.google.com/maps/place/Cape+Town,+South+Africa/")
+  } else if (userWord == "San antonio" || userWord == "san antonio"|| userWord == "San Antonio") {
+    window.location.replace("https://www.google.com/maps/place/San+Antonio,+TX,+USA/")
+  } else if (userWord == "Anchorage" || userWord == "anchorage") {
+    window.location.replace("https://www.google.com/maps/place/Anchorage,+AK,+USA/")
+  } else if (userWord == "New york" || userWord == "new york"|| userWord == "New York") {
+    window.location.replace("https://www.google.com/maps/place/New+York,+NY,+USA/")
+  } else if (userWord == "Panama city" || userWord == "panama city"|| userWord == "Panama City") {
+    window.location.replace("https://www.google.com/maps/place/Panama+City,+Panama/")
   }
 
 }
