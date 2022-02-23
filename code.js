@@ -22,6 +22,59 @@ $(function() {
                 $('#history').append('<div id="publications" class="desc"> <b>recent publications:</b> <br><br><span id="b">PINNED ITEM: </span><a href="report.pdf">Declassified Report on the case of Winston Smith</a><br>Published to BHood Engine on April 4, 1990 by a verified user 🗸 <br><br><span id="b">PINNED ITEM: </span><a href="transcript.pdf">Interview Transcript with a new operative</a><br>Published to BHood Engine on April 28, 1990 by a verified user 🗸 <br><br></div>')
             } else if (query === "contact") {
                 $('#history').append('<div id="contact" class="desc"> You do not have authorization to use this command. Please sign in as an administrator and relaunch the engine to proceed.</div><br>')
+            } else if (query === "chess") {
+                $('#history').append('<div id="myBoard" style="width: 400px"></div>')
+                var board = null
+                var game = new Chess()
+
+                function onDragStart (source, piece, position, orientation) {
+                // do not pick up pieces if the game is over
+                if (game.game_over()) return false
+
+                // only pick up pieces for White
+                if (piece.search(/^b/) !== -1) return false
+                }
+
+                function makeRandomMove () {
+                var possibleMoves = game.moves()
+
+                // game over
+                if (possibleMoves.length === 0) return
+
+                var randomIdx = Math.floor(Math.random() * possibleMoves.length)
+                game.move(possibleMoves[randomIdx])
+                board.position(game.fen())
+                }
+
+                function onDrop (source, target) {
+                // see if the move is legal
+                var move = game.move({
+                    from: source,
+                    to: target,
+                    promotion: 'q' // NOTE: always promote to a queen for example simplicity
+                })
+
+                // illegal move
+                if (move === null) return 'snapback'
+
+                // make random legal move for black
+                window.setTimeout(makeRandomMove, 250)
+                }
+
+                // update the board position after the piece snap
+                // for castling, en passant, pawn promotion
+                function onSnapEnd () {
+                board.position(game.fen())
+                }
+
+                var config = {
+                draggable: true,
+                position: 'start',
+                onDragStart: onDragStart,
+                onDrop: onDrop,
+                onSnapEnd: onSnapEnd
+                }
+                board = Chessboard('myBoard', config)
             } else {
                 $('#history').append('<div id="error" class="desc"> <span id="error_msg">Error: BHE 3.8.1 does not recognise that command. Type "help" to see all valid commands and arguments.</span><br><br></div>')
             }

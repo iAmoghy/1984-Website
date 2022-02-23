@@ -10,6 +10,10 @@ body {
     display: none;
 }
 
+#myBoard {
+	margin-bottom: 2rem;
+}
+
 #console {
 	font-family: courier, monospace;
 	color: #fff;
