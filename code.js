@@ -1,6 +1,6 @@
 $(function() {
 
-    $('.console').on('click', function() {
+    $('#console').on('click', function() {
         $('#input').focus();
     });
 

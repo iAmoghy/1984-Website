@@ -59,7 +59,7 @@ function locationClick() {
   var userWord = document.getElementById("locationBox").value;
   console.log(userWord)
 
-  if (userWord === "Goldstein") {
+  if (userWord === "Etiam si omnes, ego non") {
     window.location.replace("block.html");
   } else if (userWord == "Havana" || userWord == "havana") {
     window.location.replace("https://www.google.com/maps/place/Havana,+Cuba/")
