@@ -95,7 +95,7 @@ var Typer = {
     }
   }
   
-  Typer.speed = 4;
+  Typer.speed = 2;
   Typer.file = 'block.txt';
   Typer.init();
   

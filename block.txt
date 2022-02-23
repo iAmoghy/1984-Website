@@ -10,8 +10,8 @@ The Brotherhood is a counter-revolutionary organization working against the Ocea
 Your connection was intercepted because you have been noted on our list as a possible future operative, and we see great potential for you to work alongside us against the evils of the Party. This message is an OFFICIAL NOTICE OF RECRUITMENT to join the Brotherhood. Note that this is an irreversible act of direct defiance against the Party, punishable by only the very worst torture in the MINISTRY OF LOVE.<br/><!-- slightdelayhere--> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 You should therefore only join if you, in your own will and consience of mind, choose to fight for the Brotherhood cause. Only if you are willing to endure death, loss, and torture - to strive for a greater Oceania. By clicking on the signiature of approval at the end of this message, you will agree to abide by all terms of the "CODE OF BROTHERS", the official charter of the BrotherHood. A copy may be found <a href="code.html"> here</a>.<br/> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 We hope to see you on our end soon, if you choose to embark on this mission. Clicking accept will automatically notify our extraction comittees, which you will hear from soon to plan your secret escape from Oceania. In the meantime, you may consider using the BHood Engine v4.3.2, a software application hosting key information on the Brotherhodod for future agents and recruits.<!-- slightdelayhere--> Down with Big Brother! <br/>
-<a id="k" href="brotherhood.html" class="btn"> ACCEPT </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-<a id="b" href="brotherhood.html" class="btn"> TERMINATE CONNECTION </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<a id="k" href="terminal.html" class="btn"> ACCEPT </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<a id="b" href="index.html" class="btn"> TERMINATE CONNECTION </a> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
 
 <span id="b">Ense petit placidam sub libertate quietem,</span> <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
