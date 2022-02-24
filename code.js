@@ -80,9 +80,6 @@ $(function() {
                 $('#history').append('<div id="publications" class="desc"> <b>recent editions:</b> <br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 05/04/1991</a><br>Features: The case of Winston Smith, task force against OTS.<br><br><span id="b"><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 29/03/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 22/03/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 15/03/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 08/03/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 01/03/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 22/02/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 15/02/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 08/02/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 01/02/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 25/01/1991</a><br><br><span id="b">BROTHERHOOD TIMES: </span><a href="report.pdf">Edition 18/01/1991</a><br><br><br></div>')
             } else if (query === "clear") {
                 $('#history').empty();
-            } else if (query === "music_off") {
-                $('#history').append('<div id="publications" class="desc"> Music has been turned off. <br><br></div>')
-                sound.pause();
             } else {
                 $('#history').append('<div id="error" class="desc"> <span id="error_msg">Error: BHE 3.8.1 does not recognise that command. Type "help" to see all valid commands and arguments.</span><br><br></div>')
             }
